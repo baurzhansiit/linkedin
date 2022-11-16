@@ -66,7 +66,7 @@ def main():
     driver.close()
         
 if __name__=='__main__':
-    obj = random_company("./200fortune.txt")
+    obj = random_company("./fortune.txt")
     url2 = urlparsers(obj[0].strip(), page)
     print(url2)
     print(f"Will find connection in {obj[0].strip()} company")
