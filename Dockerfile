@@ -1,4 +1,4 @@
-FROM python:3.7 as dev
+FROM python:latest as dev
 
 
 # Adding trusting keys to apt for repositories
