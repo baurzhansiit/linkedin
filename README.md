@@ -40,4 +40,5 @@ Ani
 7. in CLI, execude:
    ```<python app.py>```
    \
-   *by default it will send 10 connection to random choosen company from file fortune.txt
+   *by default it will send 10 connection to random choosen company from file fortune.txt\
+   while login in Linkedin account utility will save session cookies and store it in cookies.pkl \ (which should be not visible in your code repository) 
