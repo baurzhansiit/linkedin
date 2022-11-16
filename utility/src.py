@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 url = "https://linkedin.com"
-username = "3237369412"
+username = os.getenv("username")
 password = os.getenv("password")
 
 

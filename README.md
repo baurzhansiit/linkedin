@@ -18,13 +18,14 @@ pip install -r requirements.txt
 3. Create file <.env>, execude:
 ```
 cat <<EOF >> .env
+username="your username from Linkedin"
 password="your password from Linkedin"
 EOF 
 ```
   *that will create hiden environment file to hold your cred from Linkedin on localhost
 Ani
 
-4. In .env file, provide your Linkedin password
+4. In .env file, provide your Linkedin username and password
 
 
 5. Clean file elementsid.txt, execude:\
